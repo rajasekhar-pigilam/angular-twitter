@@ -1,0 +1,28 @@
+.example-form {
+  min-width: 150px;
+  max-width: 660px;
+  width: 100%;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-header-image {
+  background-image: url('https://assets.skool.com/f/6d0720605c524e9ea19c6bfa78eb86c5/55d286aa3b264ed3b87b0eb62987975ca40b577127c947cdbeee9f33f4e1291b');
+  background-size: cover;
+}
+
+.example-card{
+  margin: 10px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+

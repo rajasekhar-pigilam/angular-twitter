@@ -1,0 +1,32 @@
+APIs Required
+- Login (Get User)
+- Signup (Create User)
+- View Profile (Read User)
+- Edit Profile (Update User)
+
+- Create Tweet - POST
+- Read Tweets - GET
+- Update Tweet - PUT / PATCH
+- Delete Tweet - DELETE
+
+
+User:
+ - id
+ - name
+ - designation
+ - username
+ - password
+ - email
+ - mobile
+ - profilePic
+ - createdAt
+ - updatedAt
+
+ Tweets:
+ - id
+ - userId
+ - tweet
+ - createdAt
+ - updatedAt
+
+//JWT

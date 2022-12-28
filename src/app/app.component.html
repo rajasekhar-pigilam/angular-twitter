@@ -1,0 +1,27 @@
+<!-- <div class="left-panel">
+
+</div>
+<div class="container">
+
+</div>
+<div class="right-panel">
+
+</div> -->
+
+<!-- <mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>Drawer content</mat-drawer>
+  <mat-drawer-content>Main content</mat-drawer-content>
+  <mat-drawer mode="side" opened>Drawer content</mat-drawer>
+  <mat-sidenav opened mode="side" position="end">End content</mat-sidenav>
+</mat-drawer-container> -->
+<mat-sidenav-container class="example-container">
+  <mat-sidenav class="leftpanel docs-header-background" opened mode="side">
+    <app-left-panel></app-left-panel>
+  </mat-sidenav>
+  <mat-sidenav class="rightpanel" opened mode="side" position="end">
+    <app-right-panel></app-right-panel>
+  </mat-sidenav>
+  <router-outlet></router-outlet>
+</mat-sidenav-container>
+
+

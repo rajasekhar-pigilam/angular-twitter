@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+
+.left-panel{
+    width: 25%;
+    height: auto;
+    min-height: 600px;
+    float: left;
+    background-color: aliceblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+}
+
+.right-panel{
+    width: 25%;
+    height: auto;
+    min-height: 600px;
+    float: left;
+    background-color: antiquewhite;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.container{
+    width: 50%;
+    height: auto;
+    min-height: 600px;
+    float: left;
+    background-color: azure;
+    position: fixed;
+    left: 25%;
+    top: 0;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,30 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>You Name</mat-label>
+    <input matInput [(ngModel)]="name" name="name" placeholder="Ex. Raz" value="Raja Sekhar">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Tweet here..</mat-label>
+    <textarea matInput [(ngModel)]="tweet" name="tweet" placeholder="Ex. It makes me feel..."></textarea>
+  </mat-form-field>
+  <button (click)="postTweet()" mat-raised-button color="primary">Tweet</button>
+</form>
+
+<mat-divider></mat-divider>
+
+<!-- <h2 *ngIf="postedBy">Name: {{postedBy}}</h2>
+<p>{{tweetedText}}</p> -->
+
+<mat-card *ngFor="let tweet of tweets" class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <img [src]= "tweet.photo" class="avatar" />
+    </div>
+    <mat-card-title>{{tweet.name}}</mat-card-title>
+    <mat-card-subtitle>{{tweet.designation}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    {{tweet.tweet}}
+  </mat-card-content>
+</mat-card>
